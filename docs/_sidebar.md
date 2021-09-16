@@ -1,0 +1,5 @@
+- [Home](/)
+- [Guide](guide.md)
+- [Core CS](/core/index.md)
+- [Software Development](/software-development)
+  - [Google Efficiently](/software-development/GoogleEfficiently.md)
