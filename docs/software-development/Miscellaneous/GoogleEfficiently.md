@@ -26,7 +26,7 @@ To show results only from a particular _site_
 
 `react hooks before:2020`
 
-> [!TIP] > `before` can be useful if maintaining legacy projects
+> [!TIP] `before` can be useful if maintaining legacy projects
 
 ### 5. Range (..)
 
