@@ -2,5 +2,8 @@
 - [Guide](guide.md)
 - [Core CS](core/index.md)
 - **Software Development**
+  - Backend
+    - Server-side
+      - [Query String](/software-development/backend/server-side/QueryString.md)
   - Miscellaneous
     - [Google Efficiently](/software-development/miscellaneous/GoogleEfficiently.md)
