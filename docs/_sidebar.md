@@ -9,5 +9,8 @@
   - DevOps
     - Docker
       - [Basic Commands](software-development/devops/docker/BasicCommands.md)
+      - [Debugging](software-development/devops/docker/Debugging.md)
+      - [CI-CD Overview](software-development/devops/docker/CI_CD_Overview.md)
+      - [Docker Network](software-development/devops/docker/DockerNetwork.md)
   - Miscellaneous
     - [Google Efficiently](/software-development/miscellaneous/GoogleEfficiently.md)
