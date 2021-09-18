@@ -13,32 +13,57 @@
       rel="icon"
       href="https://avatars.githubusercontent.com/u/54888682?v=4"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css"
-    />
+    /> -->
 
-    <link
+    <!-- <link
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
     />
+    <style>
+      :root {
+        /* --theme-color: lightgreen;
+        --mono-hue: 60;
+        --theme-hue: 204;
+        --theme-saturation: 50%;
+
+        --mono-base: #5f7e92; */
+
+        /* Code Snippets */
+        --code-inline-background: gray;
+        --code-inline-border-radius: 3px;
+        --code-inline-color: white;
+        --code-inline-margin: 0 0.15em;
+        --code-inline-padding: 0.125em 0.4em;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
     <script>
       window.$docsify = {
         el: '#app',
-        name: 'SDE Handbook <br/> by  <a href="https://github.com/omeiirr" style="color:blue">Omeir</a>',
+        name: 'SDE Handbook <br/> by  <a href="https://github.com/omeiirr" style="color:white; text-decoration:underline">Omeir</a>',
         homepage: 'index.md',
         repo: 'omeiirr/SDE-Handbook',
         loadSidebar: true,
-        sidebarDisplayLevel: 1,
+        sidebarDisplayLevel: 7,
         coverpage: false,
         auto2top: true,
-        themeColor: '#3F51B5',
+        themeColor: '#ca39f2', // purple
+        themeColor: '#28a745', // green
+        // themeColor: '#39f26d ', // lightgreen
         'flexible-alerts': {
           style: 'callout',
         },
+
+        // Code snippets
       };
     </script>
     <!-- Docsify v4 -->
