@@ -4,6 +4,8 @@
 
 <img src='./img/DockerNetwork.png' title='Docker network'/>
 
+![Docker Network]('../../../media/images/DockerNetwork.png')
+
 On local machine, Docker runs in an isolated Docker network. Suppose we have two containers running in this network, MongoDB and Mongo Express UI.
 
 Because they are running in the same network, they can communicate with each other just by their container_name, without the localhost, or port numbers.
